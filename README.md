@@ -76,7 +76,7 @@ SauceDemo/
    ```
 
 2. **Update config (optional)**  
-   Edit `src/test/resources/config.properties` if needed:
+   Edit `SouceDemo/Configuration/global.properties` if needed:
    ```properties
    browser=chrome
    baseurl=https://www.saucedemo.com/
