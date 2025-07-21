@@ -1,0 +1,19 @@
+[
+   
+    {
+	   "comment" : "dat set 1",
+	   "id2" : "user1",
+	   "password2" : "1234"
+	     
+    },
+   
+   
+    {
+	   "comment" : "dat set 2",
+       "id2" : "user2",
+	   "password2" : "12324",
+	   
+    }
+
+
+]

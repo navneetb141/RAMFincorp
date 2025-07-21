@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+   <!-- Run all test scenarios first -->
+    <!--
+        <test name="1-Setup TollBoxPasscode">
+            <classes>
+                <class name="testRunner.TollBoxPasscodeRunner"/>
+            </classes>
+        </test>
+        <test name="2-Run Main RMQA Scenarios">
+            <classes>
+                <class name="testRunner.RC_25_2"/>
+            </classes>
+        </test>
+-->
+        <!-- Re-run only failed test scenarios -->
+
+
+       <test name="Re-run Failed Scenarios">
+           <classes>
+               <class name="testRunner.RerunTestRunner"/>
+           </classes>
+       </test>
+
+    
+</suite>
